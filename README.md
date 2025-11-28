@@ -96,6 +96,20 @@ To emulate commercial cloud ASR behaviour:
     └── figures/
         └── *.png
 ```
+cd $HOME\Desktop
+mkdir ASR_WEB_FINAL_FINAL
+cd ASR_WEB_FINAL_FINAL
+
+mkdir models
+mkdir templates
+mkdir static
+mkdir results
+mkdir results\figures
+
+# create empty files
+ni app.py -ItemType File
+ni templates\index.html -ItemType File
+ni static\main.js -ItemType File
 
 ---
 
@@ -225,5 +239,6 @@ Curated links for academic context and implementation guidance (numbered as in y
 [3–6] Vosk Documentation & Implementation Guides
 [7–8] ASR Evaluation Repositories
 [9–20] Practical ASR Projects, APIs & Tutorials
+
 
 
