@@ -1,0 +1,9 @@
+http://localhost:8000
+
+pip install onnxruntime tensorflow onnx seaborn
+
+pip install deepspeech
+
+$env:GEMINI_API_KEY = "AIzaSyBQ7h7To7mYwHotMkfQPmCR9OrAwzve11c"
+ uvicorn app:app --reload   
+ 
