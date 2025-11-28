@@ -106,7 +106,7 @@ mkdir static
 mkdir results
 mkdir results\figures
 
-# create empty files
+Create empty starter files
 ni app.py -ItemType File
 ni templates\index.html -ItemType File
 ni static\main.js -ItemType File
@@ -239,6 +239,7 @@ Curated links for academic context and implementation guidance (numbered as in y
 [3–6] Vosk Documentation & Implementation Guides
 [7–8] ASR Evaluation Repositories
 [9–20] Practical ASR Projects, APIs & Tutorials
+
 
 
 
